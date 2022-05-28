@@ -1,4 +1,5 @@
-employee_count = 1000
-dipartment_name = "IT"
-salary = 10
-print(len(employee_count))
+
+first = "shah"
+last = "alam"
+full = f"{len(first)} {4+9}"
+print(full)
