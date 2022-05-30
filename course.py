@@ -1,5 +1,7 @@
 
 first = "shah"
 last = "alam"
-full = f"{len(first)} {4+9}"
+full = first + " " + last
 print(full)
+same = f"{print(first)} {last}"
+print(same)
