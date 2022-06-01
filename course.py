@@ -107,7 +107,8 @@ else:
 #high_salary = False
 #high_credit = True
 #if high_salary == True and high_credit == True:
-if high_credit and high_salary:
-    print("Eligible")
-else:
-    print("Not eligible")
+# if high_credit and high_salary:
+#     print("Eligible")
+# else:
+#     print("Not eligible")
+print("Eligible" if high_credit and high_salary else "not Eligible")
