@@ -19,7 +19,8 @@ else:
 #high_salary = False
 #high_credit = True
 #if high_salary == True and high_credit == True:
-if high_credit and high_salary:
-    print("Eligible for Loan")
-else:
-    print("Not eligible for Loan")
+#if high_credit and high_salary:
+#    print("Eligible for Loan")
+#else:
+#    print("Not eligible for Loan")
+print("Eligible" if high_credit or high_salary else "Not Eligible")
